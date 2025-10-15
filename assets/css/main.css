@@ -9,7 +9,8 @@
 }
 
 body {
-   background-color:  rgb(0, 0, 0);
+   background-color: #0E0F15;
+   margin: 0;
  }
 
 a {
@@ -21,7 +22,7 @@ a {
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #0E0F15 ;
     gap: 40px;
     padding: 50px;
 }
@@ -53,26 +54,27 @@ a {
 
 
 .cont-central {
-    border: 1px solid black;
+    border: 1px solid#0E0F15;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     bottom: 20px;
-    
+    margin-top: 90px;
 }
 
 .cont-central h1 {
+    position: absolute;
+    bottom: 70%;
     color: white;
     font-family: "cinzel bold",sans serif;
     font-size: 4rem;
-    margin-bottom: 10px;
-    margin-top : 20px;
+
 }
 
 .cont-central h2 {
     color: #D4B993;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: "cinzel regular";
 }
 
@@ -104,15 +106,17 @@ a {
 .cardnews {
     width: 30%;
     border: 1px solid rgba(220, 219, 219, 0.226);
-    box-shadow: 0px 1px 10px white;
+    box-shadow: 0px 1px 10px rgb(33, 33, 33);
     padding: 5rem 0;
     padding-top: 0px;
     padding-bottom: 190px;
+    background-color: #0F121A;
 }
 
 .contentnews {
     color: white;
     padding: 20%;
+    
 }
 
 .contentnews .imgnews {
@@ -135,3 +139,60 @@ a {
 }
 
 
+
+.contnewslatter {
+    margin-top: 20px ;
+    border: 1px white solid;
+
+}
+.formnewslatter {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: solid rgba(149, 149, 149, 0.168);
+    background-color: #111219; 
+
+}
+.formnewslatter input {
+    position: relative;
+    bottom: 0%;
+    left:   6px;
+}
+
+#mail {
+    padding: 10px 15px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+
+#sub {
+    padding: 11px 15px;
+    display: inline-block;
+    background-color: #c38f46;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.gold.news {
+    padding: top 20px; 
+    margin-bottom: 0px;
+    background-color: #111219;
+    border-top: solid rgba(149, 149, 149, 0.168);
+    background-color: #111219; 
+}
+
+.footercont{
+    display: flex;
+}
+
+.contfoot{
+    flex-direction: row;
+}
+
+.imgfoot {
+    position :absolute;
+    width: 100%;
+}
